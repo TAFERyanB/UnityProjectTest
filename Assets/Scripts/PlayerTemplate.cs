@@ -61,5 +61,19 @@ public class PlayerTemplate : MonoBehaviour
 
         _moveDir.y = _jumpSpd;
     }
+    private void Attack()
+    {
+        //swing melee attack
+
+        //animation
+
+        //sword trace
+
+        //apply damage
+
+
+        if (Input.GetButtonDown("Fire1"))
+            Debug.Log("The player has attacked");
+    }
 
 }
